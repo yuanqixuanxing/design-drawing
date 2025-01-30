@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="第 1 页" id="dYa4CWw3bRdOShU7edCv">
-    <mxGraphModel>
+    <mxGraphModel dx="2192" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-13" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="547.5" width="590" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-21" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;strokeColor=#82b366;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="730" y="562.5" width="590" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;kubectl&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;command tools&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-2" value="Dashboard&lt;div&gt;view UI&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-3" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=none;fontColor=#333333;strokeColor=#666666;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="555" width="590" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-4" value="kube-controller-manager&lt;div&gt;控制器管理器：管理各个类型的控制器，针对k8s中各种资源的管理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-5" value="api-server&lt;div&gt;interface service , openapi wtih REST style&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;sketch=1;curveFitting=1;jiggle=2;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HZWtp5ZReVwZxNCfYw9V-6" target="HZWtp5ZReVwZxNCfYw9V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-6" value="cloud-controller-managet&lt;div&gt;云控制管理器：第三方平台控制器api对接管理功能&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Comic Sans MS&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;控制面板(Master)&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="267" y="587" width="236" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-9" value="第三方云平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="715" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-11" value="kube-scheduler&lt;br&gt;&lt;div&gt;调度器：负责将pod基于一定的算法，调度到更合适的节点（服务器）上&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="810" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-12" value="etcd&lt;div&gt;k8s的数据库，键值类型存储的分布式数据库，提供了基于Raft算法实现自主的集群高可用&lt;/div&gt;&lt;div&gt;旧版本：基于内存&amp;nbsp; &amp;nbsp;新版本： 持久化存储&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="890" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-14" value="节点（Node）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="910" y="576.5" width="236" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-15" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;kubelet&lt;br&gt;&lt;/font&gt;&lt;div&gt;负责pod的生命周期、存储、网络&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=Comic Sans MS;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="790" y="627.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-16" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;kube-proxy&lt;/font&gt;&lt;div&gt;网络代理、负责service的服务发现&lt;/div&gt;&lt;div&gt;负载均衡（4层）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="632.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-17" value="pod&lt;div&gt;容器1&amp;nbsp; 容器2&amp;nbsp; 容器3&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="790" y="727.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-18" value="pod&lt;div&gt;容器1&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="950" y="727.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-19" value="pod&lt;div&gt;容器2&amp;nbsp; 容器3&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="727.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZWtp5ZReVwZxNCfYw9V-20" value="tontainer-runtime&lt;div&gt;容器运行时环境： docker、containerd、CRI-O&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="790" y="812.5" width="450" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
